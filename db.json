@@ -1,0 +1,39 @@
+{
+  "favorites": [
+    {
+      "id": "74iY6hX5yDlnogEAvXBzQe",
+      "name": "Это всё",
+      "artists": "ДДТ",
+      "images": "https://i.scdn.co/image/ab67616d0000b27337f39a6f63b0c24b901c03ae"
+    },
+    {
+      "id": "2uZ3Y33gGJMc6Hx5iLrxev",
+      "name": "Ветер",
+      "artists": "ДДТ",
+      "images": "https://i.scdn.co/image/ab67616d0000b27337f39a6f63b0c24b901c03ae"
+    },
+    {
+      "id": "36YFj5KAKdR6oSxUtoC4sv",
+      "name": "Метель",
+      "artists": "ДДТ",
+      "images": "https://i.scdn.co/image/ab67616d0000b2736cd65ad95ed5590b02d932c5"
+    },
+    {
+      "id": "0qlCTm0U6Jcgx29HEYIXrg",
+      "name": "Группа крови",
+      "artists": "Кино",
+      "images": "https://i.scdn.co/image/ab67616d0000b273f3bdc5d7cd884901debbc230"
+    },
+    {
+      "id": "62Vf7c3MtB7BR08VbpnAsX",
+      "name": "Владивосток 2000",
+      "artists": "Мумий Тролль",
+      "images": "https://i.scdn.co/image/ab67616d0000b273c3466d9510219aace72cd62f"
+    },
+    {
+      "id": "5P77V35o8bUtfLSfaufRFq",
+      "name": "Дождь",
+      "images": "https://i.scdn.co/image/ab67616d0000b273e9427461da162e006490a947"
+    }
+  ]
+}

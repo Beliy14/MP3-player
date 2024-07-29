@@ -1,0 +1,39 @@
+  
+  .more-albums {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #303058; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+    cursor: pointer;
+    transition:  0.3s ease;
+    width: fit-content; 
+    margin: auto;
+  }
+  
+  .more-albums:hover {
+    background-color: #2a2a44; 
+  }
+  
+  .more-albums p {
+    font-size: 16px;
+    font-weight: bold;
+    transition:  0.3s ease;
+    padding-bottom: 3px;
+  }
+  
+  .more-albums span {
+    opacity: 0;
+    transition:  0.2s ease;
+    padding-top: 4px;
+    margin-right: -20px;
+  }
+  
+  .more-albums:hover span {
+    opacity: 1;
+    margin:  0 -10px 0 5px;
+  }

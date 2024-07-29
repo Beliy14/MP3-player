@@ -1,0 +1,106 @@
+.favorites-body {
+    width: 99%;
+    height: 90%;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: start;
+    gap: 40px;
+  }
+  
+  .song-card {
+    position: relative;
+    width: 14%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: rgb(30, 42, 62);
+    border: 1px solid rgba(54, 69, 98, 0.18);
+    padding: 1%;
+    margin-bottom: 2%;
+    background: rgb(30, 42, 62);
+    background: linear-gradient(
+      75deg,
+      rgb(40, 58, 88) 0%,
+      rgba(54, 69, 98, 0) 100%
+    );
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .song-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .song-card:hover .song-fade {
+    opacity: 1;
+  }
+  
+  .song-image {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 15px;
+    user-select: none; 
+  }
+  
+  .song-name {
+    font-weight: 600;
+    font-size: 16px;
+    color: #c4d0e3;
+    margin: 10px 0px 10px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: start;
+  }
+  
+  .song-band {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px;
+    color: #f5f7fa7c;
+  }
+
+  .song-heart {
+    position: absolute;
+    bottom: 1.11rem;
+    right: 3rem;
+    cursor: pointer;
+    width: 30px;
+    z-index: 100;
+  }
+
+  .song-heart.active {
+    width: 25px;
+    right: 3.2rem;
+  }
+
+
+  .song-fade {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 34%;
+    border-radius: 20px;
+    background: linear-gradient(
+      180deg,
+      rgba(54, 69, 98, 0) 10%,
+      rgba(54, 69, 98, 0.397) 100%
+    );
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 6%;
+    transition: 0.3s ease;
+    border: none;
+    cursor: default;
+  }
+
+  .song-button {
+    cursor: pointer;
+  }
